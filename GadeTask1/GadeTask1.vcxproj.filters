@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="colors">
+      <UniqueIdentifier>{a6a47f9d-878f-46c5-973a-591ba9e18ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{f1767285-0645-4e91-8949-c3f1daaee67d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="baseShader.frag" />
+    <None Include="baseShader.vert" />
+    <None Include="texShader.frag" />
+    <None Include="texShader.vert" />
+    <None Include="skybox.vert">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="skybox.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Cubemaps.vert">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="CubeMap.frag">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\container.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\wall.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Sonic.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Troll.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\wall2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\stonewall.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\PurpleWall.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\WhiteWall.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\claywall.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Room2Wall2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Room2Wall1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Room2Wall3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Room2Wall4.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Room2Roof.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Room2Floor.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GadeTask1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

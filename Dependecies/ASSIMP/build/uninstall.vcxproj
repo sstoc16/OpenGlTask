@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CE62C3FC-69FF-3CC0-A7EF-F1FFDCF3BBF2}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>uninstall</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\src\libs\assimp-5.0.1\build\include;C:\src\libs\assimp-5.0.1\build;C:\src\libs\assimp-5.0.1\include;C:\src\libs\assimp-5.0.1\code;C:\src\libs\assimp-5.0.1\.;C:\src\libs\assimp-5.0.1\contrib\zlib;C:\src\libs\assimp-5.0.1\build\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\src\libs\assimp-5.0.1\build\include;C:\src\libs\assimp-5.0.1\build;C:\src\libs\assimp-5.0.1\include;C:\src\libs\assimp-5.0.1\code;C:\src\libs\assimp-5.0.1\.;C:\src\libs\assimp-5.0.1\contrib\zlib;C:\src\libs\assimp-5.0.1\build\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\src\libs\assimp-5.0.1\build\include;C:\src\libs\assimp-5.0.1\build;C:\src\libs\assimp-5.0.1\include;C:\src\libs\assimp-5.0.1\code;C:\src\libs\assimp-5.0.1\.;C:\src\libs\assimp-5.0.1\contrib\zlib;C:\src\libs\assimp-5.0.1\build\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\src\libs\assimp-5.0.1\build\include;C:\src\libs\assimp-5.0.1\build;C:\src\libs\assimp-5.0.1\include;C:\src\libs\assimp-5.0.1\code;C:\src\libs\assimp-5.0.1\.;C:\src\libs\assimp-5.0.1\contrib\zlib;C:\src\libs\assimp-5.0.1\build\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\src\libs\assimp-5.0.1\build\CMakeFiles\0e779036f73ab6a843d75d369395a036\uninstall.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P C:/src/libs/assimp-5.0.1/build/cmake_uninstall.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\src\libs\assimp-5.0.1\build\CMakeFiles\uninstall</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P C:/src/libs/assimp-5.0.1/build/cmake_uninstall.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\src\libs\assimp-5.0.1\build\CMakeFiles\uninstall</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P C:/src/libs/assimp-5.0.1/build/cmake_uninstall.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\src\libs\assimp-5.0.1\build\CMakeFiles\uninstall</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P C:/src/libs/assimp-5.0.1/build/cmake_uninstall.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\src\libs\assimp-5.0.1\build\CMakeFiles\uninstall</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\src\libs\assimp-5.0.1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/src/libs/assimp-5.0.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/src/libs/assimp-5.0.1 -BC:/src/libs/assimp-5.0.1/build --check-stamp-file C:/src/libs/assimp-5.0.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\src\libs\assimp-5.0.1\assimp-config-version.cmake.in;C:\src\libs\assimp-5.0.1\assimp-config.cmake.in;C:\src\libs\assimp-5.0.1\assimp.pc.in;C:\src\libs\assimp-5.0.1\assimpTargets-debug.cmake.in;C:\src\libs\assimp-5.0.1\assimpTargets-release.cmake.in;C:\src\libs\assimp-5.0.1\assimpTargets.cmake.in;C:\src\libs\assimp-5.0.1\build\CMakeFiles\3.19.0-rc1\CMakeCCompiler.cmake;C:\src\libs\assimp-5.0.1\build\CMakeFiles\3.19.0-rc1\CMakeCXXCompiler.cmake;C:\src\libs\assimp-5.0.1\build\CMakeFiles\3.19.0-rc1\CMakeRCCompiler.cmake;C:\src\libs\assimp-5.0.1\build\CMakeFiles\3.19.0-rc1\CMakeSystem.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\FindDirectX.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\FindPkgMacros.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\FindZLIB.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\PrecompiledHeader.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\cmake_uninstall.cmake.in;C:\src\libs\assimp-5.0.1\cmake\HunterGate.cmake;C:\src\libs\assimp-5.0.1\include\assimp\config.h.in;C:\src\libs\assimp-5.0.1\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\src\libs\assimp-5.0.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/src/libs/assimp-5.0.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/src/libs/assimp-5.0.1 -BC:/src/libs/assimp-5.0.1/build --check-stamp-file C:/src/libs/assimp-5.0.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\src\libs\assimp-5.0.1\assimp-config-version.cmake.in;C:\src\libs\assimp-5.0.1\assimp-config.cmake.in;C:\src\libs\assimp-5.0.1\assimp.pc.in;C:\src\libs\assimp-5.0.1\assimpTargets-debug.cmake.in;C:\src\libs\assimp-5.0.1\assimpTargets-release.cmake.in;C:\src\libs\assimp-5.0.1\assimpTargets.cmake.in;C:\src\libs\assimp-5.0.1\build\CMakeFiles\3.19.0-rc1\CMakeCCompiler.cmake;C:\src\libs\assimp-5.0.1\build\CMakeFiles\3.19.0-rc1\CMakeCXXCompiler.cmake;C:\src\libs\assimp-5.0.1\build\CMakeFiles\3.19.0-rc1\CMakeRCCompiler.cmake;C:\src\libs\assimp-5.0.1\build\CMakeFiles\3.19.0-rc1\CMakeSystem.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\FindDirectX.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\FindPkgMacros.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\FindZLIB.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\PrecompiledHeader.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\cmake_uninstall.cmake.in;C:\src\libs\assimp-5.0.1\cmake\HunterGate.cmake;C:\src\libs\assimp-5.0.1\include\assimp\config.h.in;C:\src\libs\assimp-5.0.1\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\src\libs\assimp-5.0.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/src/libs/assimp-5.0.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/src/libs/assimp-5.0.1 -BC:/src/libs/assimp-5.0.1/build --check-stamp-file C:/src/libs/assimp-5.0.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\src\libs\assimp-5.0.1\assimp-config-version.cmake.in;C:\src\libs\assimp-5.0.1\assimp-config.cmake.in;C:\src\libs\assimp-5.0.1\assimp.pc.in;C:\src\libs\assimp-5.0.1\assimpTargets-debug.cmake.in;C:\src\libs\assimp-5.0.1\assimpTargets-release.cmake.in;C:\src\libs\assimp-5.0.1\assimpTargets.cmake.in;C:\src\libs\assimp-5.0.1\build\CMakeFiles\3.19.0-rc1\CMakeCCompiler.cmake;C:\src\libs\assimp-5.0.1\build\CMakeFiles\3.19.0-rc1\CMakeCXXCompiler.cmake;C:\src\libs\assimp-5.0.1\build\CMakeFiles\3.19.0-rc1\CMakeRCCompiler.cmake;C:\src\libs\assimp-5.0.1\build\CMakeFiles\3.19.0-rc1\CMakeSystem.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\FindDirectX.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\FindPkgMacros.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\FindZLIB.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\PrecompiledHeader.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\cmake_uninstall.cmake.in;C:\src\libs\assimp-5.0.1\cmake\HunterGate.cmake;C:\src\libs\assimp-5.0.1\include\assimp\config.h.in;C:\src\libs\assimp-5.0.1\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\src\libs\assimp-5.0.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/src/libs/assimp-5.0.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/src/libs/assimp-5.0.1 -BC:/src/libs/assimp-5.0.1/build --check-stamp-file C:/src/libs/assimp-5.0.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\src\libs\assimp-5.0.1\assimp-config-version.cmake.in;C:\src\libs\assimp-5.0.1\assimp-config.cmake.in;C:\src\libs\assimp-5.0.1\assimp.pc.in;C:\src\libs\assimp-5.0.1\assimpTargets-debug.cmake.in;C:\src\libs\assimp-5.0.1\assimpTargets-release.cmake.in;C:\src\libs\assimp-5.0.1\assimpTargets.cmake.in;C:\src\libs\assimp-5.0.1\build\CMakeFiles\3.19.0-rc1\CMakeCCompiler.cmake;C:\src\libs\assimp-5.0.1\build\CMakeFiles\3.19.0-rc1\CMakeCXXCompiler.cmake;C:\src\libs\assimp-5.0.1\build\CMakeFiles\3.19.0-rc1\CMakeRCCompiler.cmake;C:\src\libs\assimp-5.0.1\build\CMakeFiles\3.19.0-rc1\CMakeSystem.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\FindDirectX.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\FindPkgMacros.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\FindZLIB.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\PrecompiledHeader.cmake;C:\src\libs\assimp-5.0.1\cmake-modules\cmake_uninstall.cmake.in;C:\src\libs\assimp-5.0.1\cmake\HunterGate.cmake;C:\src\libs\assimp-5.0.1\include\assimp\config.h.in;C:\src\libs\assimp-5.0.1\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\src\libs\assimp-5.0.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\src\libs\assimp-5.0.1\build\CMakeFiles\uninstall">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\src\libs\assimp-5.0.1\build\ZERO_CHECK.vcxproj">
+      <Project>{91F00F98-180C-36BF-B6AE-BE5AA76029FB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
